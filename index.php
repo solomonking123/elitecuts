@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10100f">
+  <meta name="description" content="Make time for a sharper look. Book your appointment at ELITE CUTS.">
+  <title>ELITE CUTS | Premium Barbershop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.php" aria-label="Elite Cuts home"><span class="brand-mark">EC</span><span>ELITE <b>CUTS</b></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a class="active" href="index.php">Home</a>
+      <a href="services.php">Services</a>
+      <a href="booking.php">Book a visit</a><a href="customer_login.php">Customer login</a>
+      <a href="admin.php">Appointments</a>
+    </nav>
+    <a class="header-cta" href="booking.php">Book now <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE ART OF A GOOD CUT</p>
+        <h1>Look sharp.<br><em>Feel different.</em></h1>
+        <p class="hero-copy">More than a haircut. It’s your moment to reset, recharge, and leave feeling like the best version of yourself.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="booking.php">Book your appointment <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="services.php">Explore our services <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-proof"><span class="proof-stars" aria-label="5 out of 5 stars">★★★★★</span><span>Good cuts. Great conversations.</span></div>
+      </div>
+      <div class="hero-caption"><span>01</span><span class="caption-rule"></span><span>YOUR LOCAL GROOMING DESTINATION</span></div>
+      <div class="hero-scroll"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span></div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="intro-label"><span class="eyebrow">WELCOME TO ELITE CUTS</span><span class="intro-number">01 / 03</span></div>
+      <div class="intro-content">
+        <h2>Classic craft.<br><em>Modern edge.</em></h2>
+        <div class="intro-description"><p>At ELITE CUTS, great grooming is personal. Our barbers combine time-honoured technique with a fresh eye for detail to make every visit feel effortless.</p><a class="text-link dark-link" href="services.php">A little more about us <span aria-hidden="true">→</span></a></div>
+      </div>
+      <div class="intro-bottom"><span>GOOD PEOPLE. GREAT HAIR.</span><span>EST. FOR YOUR EVERYDAY</span></div>
+    </section>
+
+    <section class="featured-services section-dark">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">THE GOOD STUFF</p><h2>Find your <em>fresh.</em></h2></div>
+          <a class="text-link" href="services.php">View all services <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="service-grid home-service-grid">
+          <article class="service-card">
+            <div class="service-visual visual-cut"><span>01</span><span class="visual-symbol">✦</span></div>
+            <div class="service-card-copy"><div><h3>Regular Haircut</h3><p>Clean, classic, and made for you.</p></div><strong>₦2,000</strong></div>
+          </article>
+          <article class="service-card">
+            <div class="service-visual visual-fade"><span>02</span><span class="visual-symbol">◒</span></div>
+            <div class="service-card-copy"><div><h3>Skin Fade</h3><p>Seamless blend. Crisp finish.</p></div><strong>₦3,000</strong></div>
+          </article>
+          <article class="service-card">
+            <div class="service-visual visual-beard"><span>03</span><span class="visual-symbol">✧</span></div>
+            <div class="service-card-copy"><div><h3>Haircut &amp; Beard</h3><p>The full refresh, all in one.</p></div><strong>₦4,000</strong></div>
+          </article>
+        </div>
+        <div class="services-foot"><span>GOOD GROOMING IS ALWAYS IN STYLE.</span><span>01 — 03</span></div>
+      </div>
+    </section>
+
+    <section class="booking-banner">
+      <div class="booking-banner-inner"><p class="eyebrow">YOUR CHAIR IS WAITING</p><h2>Make some time<br>for <em>yourself.</em></h2><p>Pick your service, choose a time that works, and we’ll take it from there.</p><a class="button button-dark" href="booking.php">Book an appointment <span aria-hidden="true">↗</span></a></div>
+      <div class="banner-mark" aria-hidden="true">EC</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.php"><span class="brand-mark">EC</span><span>ELITE <b>CUTS</b></span></a>
+    <p>Good cuts. Great conversations.</p>
+    <div class="footer-links"><a href="services.php">Services</a><a href="booking.php">Book a visit</a><a href="customer_login.php">Customer account</a><a href="admin_login.php">Admin</a></div>
+    <span class="copyright">© <span data-current-year></span> ELITE CUTS</span>
+  </footer>
+  <div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
